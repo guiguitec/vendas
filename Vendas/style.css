@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Inter", sans-serif;
+}
+nav {
+    text-align: center;
+    padding: 20px;
+    background-color: #d9d9d9a1;
+}
+header {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    max-width: 80%;
+    text-align: center;
+    margin-top: 20%;
+}
+input {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+header h2 {
+    margin-bottom: 20px;
+}
+button {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #2BA300;
+    transition: background-color 0.3s ease;
+}
+.botao::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  transform: skewX(-20deg);
+  transition: left 0.5s ease;
+  pointer-events: none;
+}
+main {
+    margin: 100px auto 0 auto; /* top, left/right (auto), bottom */
+    padding: 0 20px;           /* opcional: evita colar nas bordas em telas pequenas */
+}
+.resumo {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.container {
+    background-color: #e0e0e0;
+    width: 90%;                /* ou 800px, por exemplo */
+    max-width: 800px;
+    margin: 0 auto;            /* isso centraliza */
+    height: auto;
+    border: 1px solid #000000;
+    border-radius: 20px;
+  }
+  
+.content {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-size: 90%;
+    
+}
+.content p {
+    margin: 10px 0 10px 0;
+    
+}
+.total {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 30px;
+    font-size: 14px;
+}
+.valor {
+    display: flex;
+    margin-top: 3px;
+}
+.butn2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
